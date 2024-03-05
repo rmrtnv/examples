@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body> 
+</body>
+<script>
+var arr = { surfer_level: 0, wave_direction: 2, wave_power: '0,4' };
+data = JSON.stringify(arr);
+$.ajax({
+                url: 'http://cs26881.tmweb.ru/surf/api/index.php/spot/searchspots/',
+                type        : 'POST',
+                ContentType : 'application/json',
+                data        : {'data': data}
+            }).done(function(response){
+                //alert(response);
+				$.each(response['spots'], function(index, element) {
+					$('body').append('<div>'+element.id+' : '+element.name);
+				});
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                alert('FAILED! ERROR: ' + errorThrown);
+            });
+</script>
+</html>

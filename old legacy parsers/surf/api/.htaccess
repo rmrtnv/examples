@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ http://cs26881.tmweb.ru/surf/api/index.php/$1 [L]

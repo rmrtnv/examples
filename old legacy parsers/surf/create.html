@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body> 
+</body>
+<script>
+var obj = { name: 'some_name_', wave_power: [0,1,2], dangers: [2,1,0], suitable_swell_size:{'from': 01, 'to': 12}, best_season:{from:'', to:11} };
+data = JSON.stringify(obj);
+$.ajax({
+                url: 'http://cs26881.tmweb.ru/surf/api/index.php/spot/createspot/',
+                type        : 'POST',
+                ContentType : 'application/json',
+                data        : {'data': data}
+            }).done(function(response){
+                alert(response);
+				$.each(response['spots'], function(index, element) {
+					$('body').append('<div>'+element.id+' : '+element.name+' : '+element.lat+', '+element.lon+', dist: '+element.distance);
+				});
+            }).fail(function(jqXHR, textStatus, errorThrown){
+                alert('FAILED! ERROR: ' + errorThrown);
+            });
+</script>
+</html>

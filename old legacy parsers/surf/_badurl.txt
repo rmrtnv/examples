@@ -1,0 +1,16 @@
+Central_America/St_Barthelemy/le_bec_a_chéri
+Africa/Seychelles/La_Digue/Anse_Sevére
+Europe/France/Brittany_South/Audierne_-_La_Jetée
+Europe/Italy/Mainland/46°
+South_America/Brazil/Sao_Paulo_North_Coast/Massaguaçu
+Europe/Sweden/Ã?-land
+Central_America/St_Barthelemy/Anse_des_Lézards
+Europe/France/Vendee/Parée_Préneau
+Middle_East/Turkey/son_çare
+Africa/Benin/la_Méduse
+Africa/Togo/Lomé_Rivage
+South_America/Brazil/Paraiba_Pernambucco/Pedra_de_Xaréu
+Europe/France/Landes/Soustons_-_Plage_de_l_océan
+South_America/Brazil/Santa_Catarina_North/molhe_de_Piçarras
+South_America/Chile/Sur/Playa_3_Peñas
+South_America/Brazil/Espirito_Santo/Coral_do_Céu

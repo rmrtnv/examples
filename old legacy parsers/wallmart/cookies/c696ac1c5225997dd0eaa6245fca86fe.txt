@@ -1,0 +1,12 @@
+# HTTP Cookie File for domains related to consiglionazionaleforense.it.
+# Downloaded with cookies.txt Chrome Extension (https://chrome.google.com/webstore/detail/njabckikapfpffapmjgojcnbfjonfjfg)
+# Example:  wget -x --load-cookies cookies.txt http://www.consiglionazionaleforense.it/web/cnf/cerca-avvocato?p_auth=wExAIM19&amp;p_p_id=cnfricercaavvocati_WAR_cnfricercaavvocatiportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-1&amp;p_p_col_pos=1&amp;p_p_col_count=2&amp;_cnfricercaavvocati_WAR_cnfricercaavvocatiportlet_javax.portlet.action=searchAvvocati&amp;#p_cnfricercaavvocati_WAR_cnfricercaavvocatiportlet
+#
+www.consiglionazionaleforense.it	FALSE	/cnf-theme/	FALSE	0	JSESSIONID	3DB3936AA039B9A1BB1EBC8C0DD84698
+www.consiglionazionaleforense.it	FALSE	/	FALSE	0	JSESSIONID	6623F7AF6F8E297647EC120197539683
+www.consiglionazionaleforense.it	FALSE	/	FALSE	2959367819	GUEST_LANGUAGE_ID	it_IT
+www.consiglionazionaleforense.it	FALSE	/	FALSE	2959367819	COOKIE_SUPPORT	true
+www.consiglionazionaleforense.it	FALSE	/	FALSE	1519674997	_CKAPPR	1
+.consiglionazionaleforense.it	TRUE	/	FALSE	1551216850	_ga	GA1.2.754475172.1488138892
+.consiglionazionaleforense.it	TRUE	/	FALSE	1488145450	_gat	1
+www.consiglionazionaleforense.it	FALSE	/	FALSE	0	LFR_SESSION_STATE_20159	1488144850823
